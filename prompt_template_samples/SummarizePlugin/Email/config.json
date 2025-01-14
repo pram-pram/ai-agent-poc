@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "description": "Turn summary into an email to someone, using a polite tone",
+  "execution_settings": {
+    "default": {
+      "max_tokens": 256,
+      "temperature": 0.0,
+      "top_p": 0.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  "input_variables": [
+    {
+      "name": "to",
+      "description": "Recipient of the email",
+      "default": ""
+    },
+      {
+      "name": "sender",
+      "description": "Persons who sends the email",
+      "default": ""
+    },
+    {
+      "name": "article_summary",
+      "description": "Summary of the article",
+      "default": ""
+    }
+  ]
+}

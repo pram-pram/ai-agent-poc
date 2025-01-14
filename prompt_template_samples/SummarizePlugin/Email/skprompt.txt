@@ -1,0 +1,26 @@
+[Email rules]
+Use complete sentences.
+Use a professional and inclusive tone.
+Ensure the starting line is relevant to the article summary.
+Ensure the language of the email is the same as the given summary.
+Append the summary as it is without any modifications.
+Do not change the language of the summary.
+The whole email should be in the {{$language}}
+
+[Input]
+{{$to}},
+{{$article_summary}},
+
+Best regards,
+{{$sender}}
+
++++++
+Hi {{$to}},
+
+I hope this message finds you well. I wanted to share a summary of an article that provides valuable insights. Here are the key points:
+
+{{$article_summary}}
+
+Best regards,
+{{$sender}}
++++++
